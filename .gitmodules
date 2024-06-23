@@ -1,0 +1,3 @@
+[submodule "My-C"]
+	path = cs50x
+	url = https://github.com/rohitas-git/My-C
