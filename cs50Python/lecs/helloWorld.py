@@ -5,17 +5,19 @@ line comment
 """
 
 def main():
-    helloName()
-    helloFullName()
+    print(helloName("David"))
+    # helloFullName()
     
 
-def helloName(name = "World"):
-    print(f"Hello, {name}") 
+def helloName(name = "world"):
+    return f"hello, {name}" 
     
 def helloFullName():
     name = input("What's your name? ").strip().title()
     first, last = name.split(" ")
-    print(f"Hello, {name}", end= "??? \n") 
-    print("Name:", first, last, sep=" > ") 
+    # print(f"Hello, {name}", end= "??? \n") 
+    # print("Name:", first, last, sep=" > ") 
     
-main()
+if __name__ == "__main__":
+    main()
+    
